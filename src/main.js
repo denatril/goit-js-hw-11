@@ -15,5 +15,14 @@ function onSearch(event) {
 
   const query = event.target.elements.searchQuery.value.trim();
 
+  if (!query) {
+    return;
+  }
+
+  clearGallery();
+  showLoader();
+  
   console.log(query);
+
+  hideLoader();
 }
