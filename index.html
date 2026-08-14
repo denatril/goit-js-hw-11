@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-11/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-12/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Search</title>
-    <script type="module" crossorigin src="/goit-js-hw-11/assets/rolldown-runtime-CbXtAM7H.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-11/assets/vendor-oQsW-DSL.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-11/assets/main-B1Qmf8lx.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-Cq1ckM7T.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/styles-CPycWzbr.css">
+    <script type="module" crossorigin src="/goit-js-hw-12/assets/rolldown-runtime-hePW80VL.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-12/assets/vendor-0tNtVCy8.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-12/assets/main-Bryr3Ygh.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-Cq1ckM7T.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/styles-SCxQvi7u.css">
   </head>
   <body>
     <main>
@@ -23,9 +23,14 @@
         <button type="submit">Search</button>
       </form>
 
-      <span class="loader is-hidden"></span>
-
       <ul class="gallery"></ul>
+
+      <button class="load-more is-hidden" type="button">Load more</button>
+
+      <div class="loader-wrapper is-hidden">
+        <p class="loader-text">Loading images, please wait...</p>
+        <span class="loader"></span>
+      </div>
     </main>
 
   </body>
